@@ -3,21 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Xylarqa</title>
+  <title>Xylarqa - Cinematic Stories</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- HEADER -->
   <header>
-    <h1>Welcome to Xylarqa</h1>
-    <p>Cinematic stories & mind-bending content</p>
+    <div class="banner">
+      <h1>Xylarqa</h1>
+      <p>Cinematic stories & mind-bending visuals</p>
+    </div>
   </header>
+
+  <!-- VIDEO GALLERY -->
   <section id="videos">
     <h2>Latest Videos</h2>
-    <!-- YouTube Embed -->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+    <div class="video-grid" id="video-grid">
+      <!-- Videos will be injected here via script.js -->
+    </div>
   </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About Xylarqa</h2>
+    <p>Xylarqa brings you cinematic stories, deep narratives, and visual experiences you won't find anywhere else. Join the adventure and explore the unknown!</p>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form name="contact" method="POST" data-netlify="true">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
   <footer>
     <p>© 2025 Xylarqa</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
