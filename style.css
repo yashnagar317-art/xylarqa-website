@@ -1,15 +1,8 @@
-/* Basic Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Body & Fonts */
 body {
+  margin: 0;
   font-family: 'Arial', sans-serif;
-  background-color: #0a0a0a;
-  color: #f0f0f0;
+  background-color: #121212; /* Slightly lighter than black */
+  color: #f5f5f5;
   line-height: 1.6;
 }
 
@@ -17,7 +10,8 @@ body {
 header .banner {
   text-align: center;
   padding: 80px 20px;
-  background: linear-gradient(135deg, #1a1a1a, #333);
+  background: linear-gradient(135deg, #1a1a1a, #2a2a2a); /* gradient for depth */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
 }
 
 header h1 {
@@ -35,6 +29,10 @@ section {
   padding: 50px 20px;
   max-width: 1000px;
   margin: auto;
+  background-color: #1a1a1a; /* Slight contrast */
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.6);
 }
 
 section h2 {
@@ -57,6 +55,7 @@ iframe {
   height: 200px;
   border: none;
   border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.7);
 }
 
 /* Contact Form */
@@ -71,6 +70,8 @@ input, textarea {
   border: none;
   border-radius: 5px;
   font-size: 1rem;
+  background-color: #222;
+  color: #fff;
 }
 
 textarea {
@@ -98,7 +99,7 @@ footer {
   text-align: center;
   padding: 20px;
   background: #111;
-  color: #777;
+  color: #aaa;
   margin-top: 50px;
 }
 
